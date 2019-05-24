@@ -35,12 +35,21 @@ cp example.env .env
 
 基本用法：
 
+使用前 先创建 volume
+```
+docker volume create --name=ninghao-unison-sync 
+```
 ```
 
 1. docker-compose up -d
 2. docker-sync start
 
 
+## docker-sync install
+```
+https://docker-sync.readthedocs.io/en/latest/getting-started/installation.html
+
+```
 ```
 
 docker-sync 报错后使用 clean 清除
