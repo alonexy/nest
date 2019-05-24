@@ -36,18 +36,15 @@ cp example.env .env
 基本用法：
 
 ```
-docker-compose up -d
-```
 
-同步文件：
-
-```
-docker-sync start
-docker-compose up -d
-```
-
-或：
+1. docker-compose up -d
+2. docker-sync start
 
 ```
-docker-sync-stack start
+
+docker-sync 报错后使用 clean 清除
+
+```
+docker-sync-stack clean
+
 ```
